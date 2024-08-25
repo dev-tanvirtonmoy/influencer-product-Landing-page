@@ -1,4 +1,98 @@
 /* Small (Mobile) device Responsive styles */
 @media screen and (max-width: 576px) {
-    
+    /* Navbar section responsive styles start here */
+    nav .container,
+    .nav-links,.nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Navbar section responsive styles end here */
+
+    /* Banner section responsive styles start here */
+    .banner-con-main {
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .banner-con-main .banner-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-con-main .banner-text h1{
+        font-size: 1.75rem;
+    }
+    .banner-con-main .banner-text p{
+        font-size: 0.875rem;
+    }
+    .banner-con-main .banner-text button{
+        align-items: center;
+    }
+
+    /* Banner section responsive styles end here */
+
+    .sponser .logos{
+        flex-direction: column;
+    }
+
+    #product .card-container {
+        gap: 15px;
+    }
+    #product .container .linking {
+        margin-top: 32px;
+    }
+
+    main #featured{
+        margin: 50px 0;
+    }
+    #featured > .container {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+    }
+    #featured .container .right, #featured .container .right p {
+        width: 100%;
+    }
+    #featured .container .right h2 {
+        font-size: 1.5rem;
+        line-height: 130%;
+    }
+}
+/*  */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    nav .container,
+    .nav-links,.nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* Navbar section responsive styles end here */
+
+            /* Banner section responsive styles start here */
+    .banner-con-main {
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .banner-con-main .banner-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-con-main .banner-text h1{
+        font-size: 1.75rem;
+    }
+    .banner-con-main .banner-text p{
+        font-size: 0.875rem;
+    }
+    .banner-con-main .banner-text button{
+        align-items: center;
+    }
+
+    /* Banner section responsive styles end here */
+
+
 }
